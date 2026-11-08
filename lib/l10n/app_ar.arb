@@ -1,0 +1,591 @@
+{
+  "@@locale": "ar",
+
+  "appName": "يلو فاست كول",
+  "appVersion": "يلو فاست كول الإصدار 1.1.0",
+  "appTagline": "اعرف من المتصل",
+
+  "@_onboarding": {},
+  "onboardingSkip": "تخطٍّ",
+  "onboardingGetStarted": "ابدأ الآن",
+  "onboardingSlide1Title": "اعرف من المتصل",
+  "onboardingSlide1Subtitle": "تعرّف على الأرقام المجهولة فوراً ولن تتساءل بعد الآن عمَّن يتصل بك.",
+  "onboardingSlide2Title": "احظر الإزعاج والاحتيال",
+  "onboardingSlide2Subtitle": "حماية تلقائية من مكالمات التسويق والاحتيال والمكالمات الآلية — قبل أن يرنّ هاتفك.",
+  "onboardingSlide3Title": "خصوصيتك محمية",
+  "onboardingSlide3Subtitle": "بياناتك مشفّرة من طرف إلى طرف. تبقى أنت من يتحكّم — احذف رقمك أو أخفه في أي وقت.",
+
+  "@_common": {},
+  "ok": "حسناً",
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "delete": "حذف",
+  "close": "إغلاق",
+  "retry": "إعادة المحاولة",
+  "continueAction": "متابعة",
+  "done": "تم",
+  "next": "التالي",
+  "back": "رجوع",
+  "search": "بحث",
+  "unknown": "غير معروف",
+  "loading": "جارٍ التحميل…",
+  "errorGeneric": "حدث خطأ ما",
+  "failed": "فشلت العملية",
+  "yes": "نعم",
+  "no": "لا",
+  "justNow": "الآن",
+
+  "@_auth": {},
+  "phoneTitle": "أدخل رقم هاتفك",
+  "phoneSubtitle": "سنرسل إليك رمز التحقق عبر الرسائل القصيرة أو واتساب.",
+  "phoneFieldLabel": "رقم الهاتف",
+  "phoneFieldHint": "750 123 4567",
+  "phoneInvalid": "رقم الهاتف غير صحيح",
+  "channelSms": "رسالة نصية",
+  "channelWhatsapp": "واتساب",
+  "sendCode": "إرسال الرمز",
+  "termsAndPrivacyAgree": "بمتابعتك فإنك توافق على شروط الاستخدام وسياسة الخصوصية.",
+
+  "otpTitle": "رمز التحقق",
+  "otpSentVia": "أرسلنا رمزاً مكوناً من 6 أرقام عبر {channel} إلى ",
+  "@otpSentVia": {
+    "placeholders": {
+      "channel": { "type": "String" }
+    }
+  },
+  "otpDevMode": "وضع المطوّر — رمزك:",
+  "otpUse": "استخدم",
+  "otpResendIn": "إعادة إرسال الرمز خلال {seconds} ث",
+  "@otpResendIn": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "otpResend": "إعادة إرسال الرمز",
+  "otpVerify": "تحقّق",
+  "otpCodeSentAgain": "تم إرسال الرمز مجدداً",
+  "otpWrongCode": "الرمز غير صحيح",
+
+  "nameTitle": "ما اسمك؟",
+  "nameSubtitle": "هذا هو الاسم الذي سيراه الآخرون عند اتصالك بهم.",
+  "nameFieldLabel": "الاسم الكامل",
+  "nameValidationShort": "أدخل اسمك",
+  "nameValidationLong": "الاسم طويل جداً",
+  "finish": "إنهاء",
+
+  "gmailTitle": "اربط حساب جيميل",
+  "gmailSubtitle": "اختياري. ربط حساب جوجل يساعد على استعادة حسابك ويُحسّن اقتراحات المتصلين.",
+  "gmailContinueWith": "المتابعة باستخدام جوجل",
+  "gmailSkip": "تخطٍّ الآن",
+  "gmailSignInFailed": "فشل تسجيل الدخول بجوجل: {error}",
+  "@gmailSignInFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "@_home": {},
+  "navHome": "الرئيسية",
+  "navProtect": "الحماية",
+  "navPremium": "بريميوم",
+
+  "homeHello": "مرحباً،",
+  "homeHelloFallbackName": "صديقي",
+  "homeSettingsTooltip": "الإعدادات",
+  "homeSearchesLeft": "{remaining} من {limit} عمليات بحث متبقية",
+  "@homeSearchesLeft": {
+    "placeholders": {
+      "remaining": { "type": "int" },
+      "limit": { "type": "int" }
+    }
+  },
+  "homeSearchHint": "ابحث عن أي رقم هاتف أو اسم…",
+  "homeQuickActions": "إجراءات سريعة",
+  "homeActionContacts": "جهات الاتصال",
+  "homeActionContactsSubtitle": "على هذا الجهاز",
+  "homeActionHistory": "السجل",
+  "homeActionHistorySubtitle": "المكالمات الأخيرة",
+  "homeActionBlock": "حظر",
+  "homeActionBlockSubtitle": "إدارة القائمة",
+  "homeActionPremium": "بريميوم",
+  "homeActionPremiumSubtitle": "بدون إعلانات",
+  "homeRecentCalls": "المكالمات الأخيرة",
+  "homeSeeAll": "عرض الكل",
+  "homeRecentEmptyTitle": "لا توجد مكالمات حديثة بعد",
+  "homeRecentEmptyBody": "اسمح بالوصول إلى الهاتف من شاشة السجل لعرض مكالماتك هنا.",
+  "homeRecentLoadFailedTitle": "تعذّر تحميل سجل المكالمات",
+  "homeRecentLoadFailedBody": "اسحب لأسفل في شاشة السجل لإعادة المحاولة.",
+  "homeWatchAdPlusOne": "شاهد إعلاناً +1",
+  "homeWatchAdSuccess": "تمت إضافة عملية بحث +1 — يمكنك البحث الآن.",
+  "homeWatchAdFail": "تعذّرت إضافة المكافأة.",
+  "homeStatSpamBlocked": "تم حظر الإزعاج",
+  "homeStatIdentified": "تم التعرّف",
+
+  "@_settings": {},
+  "settingsTitle": "الإعدادات",
+
+  "sectionGeneral": "عام",
+  "sectionCallsAndCallerId": "المكالمات وهوية المتصل",
+  "sectionBlockAndSpam": "الحظر والمكالمات المزعجة",
+  "sectionSupport": "الدعم",
+  "sectionAccount": "الحساب",
+
+  "yourName": "اسمك",
+
+  "tileEditProfile": "تعديل الملف الشخصي",
+  "tileCalls": "المكالمات",
+  "tileTheme": "المظهر",
+  "tileLanguage": "اللغة",
+  "tileNotifications": "الإشعارات",
+
+  "shareLocation": "مشاركة موقعي",
+  "shareLocationSubtitle": "أرسل موقعك للمساعدة في تحديد المكالمات المزعجة في منطقتك.",
+  "shareLocationDialogTitle": "هل تريد مشاركة موقعك؟",
+  "shareLocationDialogBody": "يستخدم يلو فاست كول موقعك للتعرف على الأرقام المزعجة النشطة في منطقتك. يمكنك إيقاف ذلك في أي وقت.",
+  "shareLocationNotNow": "ليس الآن",
+  "shareLocationAllow": "سماح",
+  "locationGetting": "جارٍ تحديد موقعك…",
+  "locationSaved": "تم حفظ الموقع: {lat}، {lng}",
+  "@locationSaved": {
+    "placeholders": {
+      "lat": { "type": "String" },
+      "lng": { "type": "String" }
+    }
+  },
+  "locationBlockedTitle": "تم حظر إذن الموقع",
+  "locationBlockedBody": "لقد رفضت سابقاً إذن الوصول إلى الموقع. للسماح به الآن، افتح صفحة أذونات التطبيق ثم اضغط على «الموقع ← سماح».",
+  "openPermissions": "فتح الأذونات",
+
+  "callerIdOverlay": "عرض هوية المتصل",
+  "callerIdOverlaySubtitle": "عرض معلومات المتصل أثناء المكالمات الواردة",
+  "afterCallScreen": "شاشة ما بعد المكالمة",
+  "afterCallScreenSubtitle": "عرض تفاصيل المتصل عند انتهاء المكالمة",
+  "showAlternateNumbers": "عرض الأرقام البديلة",
+  "showAlternateNumbersSubtitle": "عرض الأرقام الأخرى المرتبطة بجهة الاتصال",
+  "defaultCallScreener": "فارز المكالمات الافتراضي",
+  "setAsDefaultCallScreener": "تعيين كفارز افتراضي للمكالمات",
+  "callScreenerActive": "مُفعّل",
+  "callScreenerOff": "متوقّف",
+  "callScreenerSetSuccess": "تم تعيين يلو فاست كول كفارز افتراضي للمكالمات.",
+  "callScreenerSetFailure": "تعذّر التعيين كافتراضي. حاول من إعدادات النظام.",
+
+  "blockSpam": "حظر المكالمات المزعجة",
+  "blockSpamSubtitle": "رفض المكالمات المُبلَّغ عنها كمزعجة",
+  "blockScam": "حظر الاحتيال",
+  "blockScamSubtitle": "رفض المكالمات المُصنَّفة كاحتيال أو نصب",
+  "silenceUnknown": "كتم المتصلين المجهولين",
+  "silenceUnknownSubtitle": "إرسال الأرقام المجهولة إلى البريد الصوتي",
+  "intlSpamFilter": "فلتر المكالمات الدولية المزعجة",
+  "intlSpamFilterSubtitle": "حظر الأرقام الأجنبية المشبوهة",
+  "manageBlockList": "إدارة قائمة الحظر",
+
+  "helpCenter": "مركز المساعدة",
+  "termsOfService": "شروط الخدمة",
+  "privacyPolicy": "سياسة الخصوصية",
+
+  "deleteAccount": "حذف الحساب",
+  "deleteAccountTitle": "هل تريد حذف الحساب؟",
+  "deleteAccountBody": "سيتم حذف حسابك وتسجيل خروجك من هذا الجهاز. لا يمكن التراجع عن هذا الإجراء.",
+  "accountDeleted": "تم حذف الحساب.",
+
+  "themeDark": "داكن",
+  "themeLight": "فاتح",
+  "themeSystem": "النظام",
+
+  "languageDialogTitle": "اللغة",
+  "languageSetTo": "تم تعيين اللغة إلى {language}.",
+  "@languageSetTo": {
+    "placeholders": {
+      "language": { "type": "String" }
+    }
+  },
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+
+  "notificationsSheetSubtitle": "عرض تنبيهات للمكالمات المحظورة وبلاغات الإزعاج وتحديثات التطبيق.",
+  "enableNotifications": "تفعيل الإشعارات",
+  "openSystemSettings": "فتح إعدادات النظام",
+  "notificationsOn": "مُفعّلة",
+  "notificationsOff": "متوقّفة",
+
+  "chooseFromGallery": "الاختيار من المعرض",
+  "takeAPhoto": "التقاط صورة",
+  "profilePictureUpdated": "تم تحديث صورة الملف الشخصي",
+  "couldNotSetPicture": "تعذّر تعيين الصورة: {error}",
+  "@couldNotSetPicture": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "@_contacts": {},
+  "contactsTitle": "جهات اتصالي",
+  "contactsSyncNow": "مزامنة الآن",
+  "contactsSyncFailed": "فشلت المزامنة: {error}",
+  "@contactsSyncFailed": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "contactsUploadedCount": "تم رفع {count} جهة اتصال",
+  "@contactsUploadedCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "contactsSearchHint": "ابحث عن اسم أو رقم…",
+  "contactsEmpty": "لا توجد جهات اتصال على هذا الجهاز.",
+  "contactsNoMatches": "لا نتائج لـ \"{query}\".",
+  "@contactsNoMatches": {
+    "placeholders": { "query": { "type": "String" } }
+  },
+  "contactsLastUpload": "آخر رفع: {count} جهة اتصال في {time}",
+  "@contactsLastUpload": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "time": { "type": "String" }
+    }
+  },
+  "contactsNotUploaded": "لم تتم المزامنة بعد — اضغط أيقونة السحابة للمزامنة.",
+  "contactsNoPhone": "— لا يوجد رقم —",
+  "contactsNoName": "(بدون اسم)",
+  "contactsPermissionNeeded": "إذن الوصول إلى جهات الاتصال مطلوب.",
+  "contactsPermissionHelp": "افتح الإعدادات ← يلو فاست كول ← الأذونات ← جهات الاتصال ← سماح.",
+  "openSettings": "فتح الإعدادات",
+  "tryAgain": "إعادة المحاولة",
+  "contactsLastSyncFailed": "فشلت آخر مزامنة: {message}",
+  "@contactsLastSyncFailed": {
+    "placeholders": { "message": { "type": "String" } }
+  },
+
+  "@_syncGate": {},
+  "syncGatePreparing": "جارٍ التحضير…",
+  "syncGateAllowAccessTitle": "اسمح بالوصول إلى جهات الاتصال",
+  "syncGateAllowAccessBody": "يحتاج يلو فاست كول إلى جهات اتصالك للتعرف على المتصلين المجهولين واكتشاف الإزعاج. تبقى جهات اتصالك مشفّرة أثناء الإرسال.",
+  "syncGateAllowAccessButton": "السماح بالوصول إلى جهات الاتصال",
+  "syncGateSyncingTitle": "جارٍ مزامنة جهات اتصالك",
+  "syncGateSyncingBody": "جارٍ الرفع إلى الخادم. يستغرق ذلك عادةً بضع ثوانٍ.",
+  "syncGateFailedTitle": "فشلت المزامنة",
+  "syncGateAllSetTitle": "تم بنجاح!",
+  "syncGateAllSetBody": "تم رفع {count} جهة اتصال. جارٍ المتابعة…",
+  "@syncGateAllSetBody": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "syncGateReadyTitle": "جاهز للمزامنة",
+  "syncGateReadyBody": "اضغط للبدء",
+  "syncGateStart": "بدء المزامنة",
+  "syncGateMustSync": "لا يمكنك المتابعة حتى تتم مزامنة جهات الاتصال.",
+  "syncGatePermBlocked": "تم رفض الإذن نهائياً. افتح الإعدادات لتفعيل جهات الاتصال.",
+
+  "@_history": {},
+  "historyTitle": "المكالمات الأخيرة",
+  "historyRefresh": "تحديث",
+  "historyCallTypeIncoming": "واردة",
+  "historyCallTypeOutgoing": "صادرة",
+  "historyCallTypeMissed": "فائتة",
+  "historyCallTypeRejected": "مرفوضة",
+  "historyCallTypeBlocked": "محظورة",
+  "historyCallTypeVoicemail": "بريد صوتي",
+  "historyCallTypeCall": "مكالمة",
+  "historyEmptyTitle": "لا توجد مكالمات حديثة",
+  "historyEmptyBody": "اسمح بالوصول إلى الهاتف لعرض سجل مكالماتك والتعرّف على الأرقام المجهولة.",
+  "historyAllowPhone": "السماح بالوصول إلى الهاتف",
+  "historyLoadFailed": "تعذّر تحميل سجل المكالمات",
+  "minAgo": "قبل {minutes} د",
+  "@minAgo": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+
+  "@_search": {},
+  "searchTitle": "بحث",
+  "searchModeNumber": "رقم",
+  "searchModeName": "اسم",
+  "searchEnterNumber": "أدخل الرقم للبحث.",
+  "searchPhoneField": "رقم الهاتف",
+  "searchTypeName": "اكتب اسماً",
+  "searchInvalidPhone": "رقم الهاتف غير صحيح",
+  "searchEmptyNumberHint": "اختر الدولة وأدخل الرقم للبحث عنه.",
+  "searchEmptyNameHint": "اكتب اسماً ثم اضغط بحث.",
+  "searchRegisteredUsers": "مستخدمون مسجّلون ({count})",
+  "@searchRegisteredUsers": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchEveryonesContacts": "من جهات اتصال الجميع ({count})",
+  "@searchEveryonesContacts": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchUnnamedUser": "مستخدم بدون اسم",
+  "searchUnknown": "غير معروف",
+  "searchUploads": "{count, plural, =0{بدون رفع} =1{رفعة واحدة} =2{رفعتان} few{{count} رفعات} many{{count} رفعة} other{{count} رفعة}}",
+  "@searchUploads": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchAdAdded": "تمت إضافة عملية بحث +1. إعادة المحاولة…",
+  "searchAdAddedLoading": "تمت إضافة عملية بحث +1. جارٍ تحميل النتيجة…",
+  "searchAdFail": "تعذّر إضافة المكافأة. حاول لاحقاً.",
+  "searchQuotaTitle": "تم استنفاد حد البحث اليومي",
+  "searchQuotaBody": "استخدمت {used}/{limit} عمليات بحث خلال الـ 24 ساعة الماضية.",
+  "@searchQuotaBody": {
+    "placeholders": {
+      "used": { "type": "String" },
+      "limit": { "type": "String" }
+    }
+  },
+  "searchQuotaReset": "البحث التالي متاح {when}.",
+  "@searchQuotaReset": {
+    "placeholders": { "when": { "type": "String" } }
+  },
+  "searchWatchAdForReward": "شاهد إعلاناً للحصول على +1 بحث",
+  "searchAdMaxUsed": "لقد استخدمت الحد الأقصى من عمليات البحث الإعلانية لليوم.",
+  "searchShowNumber": "إظهار الرقم",
+  "searchRelMoment": "بعد لحظات",
+  "searchRelMinutes": "خلال {minutes} د",
+  "@searchRelMinutes": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "searchRelHoursMinutes": "خلال {hours} س {minutes} د",
+  "@searchRelHoursMinutes": {
+    "placeholders": {
+      "hours": { "type": "int" },
+      "minutes": { "type": "int" }
+    }
+  },
+  "searchRelDays": "{days, plural, =1{خلال يوم واحد} =2{خلال يومين} few{خلال {days} أيام} many{خلال {days} يوماً} other{خلال {days} يوم}}",
+  "@searchRelDays": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+
+  "@_callerInfo": {},
+  "callerInfoTitle": "معلومات المتصل",
+  "callerInfoLoadFailed": "تعذّر تحميل معلومات المتصل",
+  "callerInfoVerifiedUser": "مستخدم موثّق على يلو فاست كول",
+  "callerInfoSpamFlag": "تم الإبلاغ كإزعاج ({count})",
+  "@callerInfoSpamFlag": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoRegistered": "مستخدم مسجّل",
+  "callerInfoIdentified": "متعرَّف عليه من المجتمع",
+  "callerInfoNotInDir": "غير موجود في الدليل بعد",
+  "callerInfoAlsoSavedAs": "محفوظ أيضاً باسم",
+  "callerInfoMoreNotShown": "+{count} المزيد",
+  "@callerInfoMoreNotShown": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoRegisteredAccount": "الحساب المسجّل",
+  "callerInfoLoginName": "اسم الدخول",
+  "callerInfoEmail": "البريد الإلكتروني",
+  "callerInfoMemberSince": "عضو منذ",
+  "callerInfoAbout": "حول هذا الرقم",
+  "callerInfoMostLikelyName": "الاسم الأكثر احتمالاً",
+  "callerInfoCountry": "الدولة",
+  "callerInfoSeenBy": "شاهده",
+  "callerInfoNobodyYet": "لا أحد بعد",
+  "callerInfoUsersCount": "{count, plural, =0{لا مستخدمين} =1{مستخدم واحد} =2{مستخدمان} few{{count} مستخدمين} many{{count} مستخدماً} other{{count} مستخدم}}",
+  "@callerInfoUsersCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoDifferentNames": "أسماء مختلفة تم رفعها",
+  "callerInfoHowOthers": "كيف حفظ الآخرون هذا الرقم",
+  "callerInfoTopOf": "أعلى {shown} من أصل {total} أسماء مختلفة في الدليل",
+  "@callerInfoTopOf": {
+    "placeholders": {
+      "shown": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "callerInfoNamesAcross": "{count, plural, =1{اسم واحد مختلف في الدليل} =2{اسمان مختلفان في الدليل} few{{count} أسماء مختلفة في الدليل} many{{count} اسماً مختلفاً في الدليل} other{{count} اسم مختلف في الدليل}}",
+  "@callerInfoNamesAcross": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoPeopleCount": "{count, plural, =1{شخص واحد} =2{شخصان} few{{count} أشخاص} many{{count} شخصاً} other{{count} شخص}}",
+  "@callerInfoPeopleCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoHiddenMore": "+{count} غير معروضين",
+  "@callerInfoHiddenMore": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoCommunityReports": "بلاغات المجتمع",
+  "callerInfoSpamReports": "بلاغات الإزعاج",
+  "callerInfoStatus": "الحالة",
+  "callerInfoFlagged": "مُبلَّغ عنه كإزعاج",
+  "callerInfoNotFlagged": "غير مُبلَّغ عنه",
+
+  "addPicture": "إضافة صورة",
+  "changePicture": "تغيير الصورة",
+  "manageBlocking": "إدارة الحظر",
+  "manageBlockingSubtitle": "قائمة الحظر وإعدادات الإزعاج والاحتيال",
+  "upgradeToPremium": "الترقية إلى Premium",
+  "upgradeToPremiumSubtitle": "بحث غير محدود وميزات كاملة",
+  "whoSearchedMe": "من بحث عني",
+  "whoSearchedMeSubtitle": "اطّلع على من بحث عن رقمك",
+
+  "@_premium": {},
+  "premiumHeroTitle": "يلو فاست بريميوم",
+  "premiumHeroSubtitle": "افتح كامل قوة هوية المتصل.\nبدون إعلانات. بحث غير محدود.",
+  "premiumFeatureIdentify": "تعرّف على أي رقم",
+  "premiumFeatureUnlimited": "بحث غير محدود",
+  "premiumFeatureNoAds": "بدون إعلانات",
+  "premiumFeatureSpamFilter": "فلتر متقدّم للإزعاج",
+  "premiumFeatureBadges": "شارات حصرية للبريميوم",
+  "premiumFeaturePriority": "دعم بأولوية",
+  "premiumPlanMonthly": "شهري",
+  "premiumPlanYearly": "سنوي",
+  "premiumPlanLifetime": "مدى الحياة",
+  "premiumPeriodMonth": "/ شهرياً",
+  "premiumPeriodYear": "/ سنوياً",
+  "premiumPeriodOneTime": "دفعة واحدة",
+  "premiumBadgeBest": "الأفضل",
+  "premiumUpgradeNow": "الترقية الآن",
+  "premiumCancelAnytime": "يمكنك الإلغاء في أي وقت. الاشتراكات تتجدّد تلقائياً.",
+  "premiumNotWired": "الدفع غير مفعّل بعد",
+  "premiumUnlockHistory": "افتح كامل السجل مع بريميوم",
+
+  "@_protect": {},
+  "protectTitle": "الحماية",
+  "protectSubtitle": "حظر الإزعاج والاحتيال والمتصلين غير المرغوب فيهم تلقائياً.",
+  "protectShieldActive": "أنت محمي",
+  "protectShieldInactive": "الحماية متوقّفة",
+  "protectShieldActiveBody": "{count, plural, =0{لم يتم حظر أي مكالمة بعد.} =1{تم حظر مكالمة واحدة حتى الآن.} =2{تم حظر مكالمتين حتى الآن.} few{تم حظر {count} مكالمات حتى الآن.} many{تم حظر {count} مكالمة حتى الآن.} other{تم حظر {count} مكالمة حتى الآن.}}",
+  "@protectShieldActiveBody": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "protectShieldInactiveBody": "اضغط أدناه لتفعيل فرز المكالمات.",
+  "protectScreeningEnabledMsg": "تم تفعيل فرز المكالمات.",
+  "protectScreeningNeededMsg": "تحتاج إلى السماح بفرز المكالمات حتى يعمل الحظر.",
+  "protectSetDefaultBanner": "فعّل فرز المكالمات حتى يستطيع التطبيق حظر المكالمات فعلياً.",
+  "protectCallerIdBanner": "فعّل نافذة معرّف المتصل لإظهار الأسماء عند المكالمات الواردة.",
+  "protectCallerIdEnabledMsg": "نافذة معرّف المتصل مفعّلة.",
+  "protectCallerIdNeededMsg": "اسمح بـ \"العرض فوق التطبيقات الأخرى\" لرؤية أسماء المتصلين.",
+  "protectSettingsSection": "إعدادات الحماية",
+  "protectBlockSpamTitle": "حظر المكالمات المزعجة",
+  "protectBlockSpamBody": "حظر الأرقام المزعجة المعروفة تلقائياً.",
+  "protectBlockScamTitle": "حظر الاحتيال",
+  "protectBlockScamBody": "إيقاف مكالمات الاحتيال قبل أن ترنّ هاتفك.",
+  "protectSilenceUnknownTitle": "كتم الأرقام المجهولة",
+  "protectSilenceUnknownBody": "إرسال المتصلين المجهولين مباشرة إلى البريد الصوتي.",
+  "protectIntlFilterTitle": "فلتر المكالمات الدولية المزعجة",
+  "protectIntlFilterBody": "حظر الأرقام الدولية المشبوهة.",
+  "protectBlockListSection": "قائمة الحظر",
+  "protectAddNumber": "إضافة رقم",
+  "protectBlockDialogTitle": "حظر رقم",
+  "protectBlockDialogPhoneHint": "+966 555 123 4567",
+  "protectBlockDialogNameLabel": "الاسم (اختياري)",
+  "protectBlockButton": "حظر",
+  "protectAddedToBlockList": "تمت إضافة الرقم إلى قائمة الحظر.",
+  "protectAlreadyBlocked": "الرقم محظور بالفعل.",
+  "protectEmptyBlockListTitle": "لا توجد أرقام محظورة بعد",
+  "protectEmptyBlockListBody": "اضغط «إضافة رقم» لحظر رقم هاتف يدوياً.",
+  "protectBlockedSubtitle": "محظور",
+  "protectUnblock": "إلغاء الحظر",
+
+  "@_enableProtection": {},
+  "enableProtectionTitle": "تفعيل الحماية",
+  "enableProtectionBody": "اسمح ليلو فاست كول بحظر الإزعاج والاحتيال والمتصلين غير المرغوب فيهم تلقائياً.",
+  "enableProtectionShareLocation": "مشاركة موقعي",
+  "enableProtectionShareLocationSub": "يساعد في تحديد أنماط الإزعاج في منطقتك.",
+  "enableProtectionBulletSpamTitle": "حظر مكالمات الإزعاج والاحتيال",
+  "enableProtectionBulletSpamBody": "رفض الأرقام السيئة المعروفة قبل أن ترنّ هاتفك.",
+  "enableProtectionBulletSilenceTitle": "كتم المتصلين المجهولين",
+  "enableProtectionBulletSilenceBody": "إرسال الغرباء مباشرة إلى البريد الصوتي.",
+  "enableProtectionBulletIntlTitle": "فلتر دولي",
+  "enableProtectionBulletIntlBody": "حظر الأرقام الأجنبية المشبوهة.",
+  "enableProtectionFootnote": "يمكنك تغيير هذا في أي وقت من الإعدادات.",
+  "enableProtectionLaterMsg": "يمكنك تفعيل الحماية لاحقاً من الإعدادات أو من شاشة الحماية.",
+
+  "@_permissionsScreen": {},
+  "permissionsTitle": "الأذونات",
+  "permissionsSubtitle": "اضغط على كل إذن للسماح به. يمكنك تغيير ذلك لاحقاً من الإعدادات.",
+  "permContactsTitle": "جهات الاتصال",
+  "permContactsDesc": "للتعرّف على جهات اتصالك وحماية أرقامهم.",
+  "permLocationTitle": "الموقع",
+  "permLocationDesc": "لعرض معلومات محلية عن المتصلين القريبين منك.",
+  "permPhoneTitle": "الهاتف",
+  "permPhoneDesc": "لاكتشاف المكالمات الواردة وعرض معلومات المتصل.",
+
+  "permWhyTitle": "لنُجهّز التطبيق لك",
+  "permWhySubtitle": "يحتاج يلو فاست كول إلى بعض الأذونات للتعرّف على المتصلين وحظر الإزعاج. سيطلب منك هاتفك السماح بكلٍّ منها — فقط اضغط «سماح».",
+  "permWhyLocationHeading": "لماذا نطلب موقعك",
+  "permLocationReason1": "اكتشاف أرقام الإزعاج والاحتيال النشطة في منطقتك",
+  "permLocationReason2": "إظهار المدينة أو المنطقة التي تأتي منها المكالمة المجهولة",
+  "permLocationReason3": "تحذيرك من أنماط الاحتيال المُبلّغ عنها بالقرب منك",
+  "permLocationReason4": "جعل التعرّف على المتصلين أكثر دقة في بلدك",
+  "permLocationPrivacyNote": "لا يظهر موقعك الدقيق لأي مستخدم آخر، ويمكنك إيقافه في أي وقت من الإعدادات.",
+  "permAllowAll": "السماح والمتابعة",
+  "permFooterNote": "يمكنك تغيير كل ذلك لاحقاً من الإعدادات.",
+
+  "@_locationBanner": {},
+  "locReminderTitle": "شارك موقعك",
+  "locReminderBody": "يساعد في تحديد المكالمات المزعجة في منطقتك. يتم التحديث كل بضعة أيام.",
+  "locReminderNotNow": "ليس الآن",
+  "locReminderTurnOn": "تفعيل",
+
+  "@_callsSettings": {},
+  "callsTitle": "المكالمات",
+  "callsSectionGeneral": "عام",
+  "callsTroubleshootTitle": "حلّ مشاكل المكالمات",
+  "callsTroubleshootSub": "إصلاح مشاكل هوية المتصل والفرز",
+  "callsDisplayStyleTitle": "نمط العرض",
+  "callsDisplayStyleSub": "كيف تظهر معلومات المتصل عند المكالمات الواردة",
+  "callsIdentifyOtherAppsTitle": "تعريف الأرقام في التطبيقات الأخرى",
+  "callsIdentifyOtherAppsSub": "عرض معلومات المتصل في واتساب وماسنجر وغيرها",
+  "callsSectionHistory": "سجل المكالمات",
+  "callsGroupCallsTitle": "تجميع المكالمات في السجل",
+  "callsGroupCallsSub": "دمج المكالمات المتكرّرة من نفس الرقم",
+  "callsShowFrequentTitle": "عرض جهات الاتصال المتكرّرة",
+  "callsShowFrequentSub": "إبراز أكثر جهات اتصالك تواصلاً في شاشة المكالمات",
+  "callsShowFromOtherAppsTitle": "عرض مكالمات التطبيقات الأخرى",
+  "callsShowFromOtherAppsSub": "تضمين واتساب وتيليجرام وما شابه في السجل",
+  "callsSectionNotifications": "الإشعارات",
+  "callsAlertNotifTitle": "إشعار تنبيه المكالمة",
+  "callsAlertNotifSub": "إعلامك عند اتصال رقم مجهول",
+  "callsMissedNotifTitle": "إشعار المكالمات الفائتة",
+  "callsMissedNotifSub": "عرض إشعار لكل مكالمة فائتة",
+  "callsRemindMissedTitle": "ذكّرني بالمكالمات الفائتة",
+  "callsRemindMissedSub": "إرسال تذكير لاحق بعد كل مكالمة فائتة",
+  "callsDisplayStylePickerSub": "اختر كيف تظهر معلومات المتصل عند الاتصال.",
+  "callsDisplayFullScreen": "شاشة كاملة",
+  "callsDisplayFullScreenSub": "يأخذ كامل الشاشة أثناء المكالمة",
+  "callsDisplayClassicPopup": "نافذة كلاسيكية",
+  "callsDisplayClassicPopupSub": "نافذة صغيرة عائمة فوق الشاشة",
+  "callsDisplayStyleChanged": "نمط العرض: {style}",
+  "@callsDisplayStyleChanged": {
+    "placeholders": { "style": { "type": "String" } }
+  },
+  "callsTroubleshootIntro": "إذا لم تظهر هوية المتصل أو لم يتم التعرّف على المكالمات، جرّب هذه الخطوات:",
+  "callsTipDefault": "اضبط يلو فاست كول كتطبيق افتراضي لهوية المتصل والإزعاج.",
+  "callsTipOverlay": "اسمح للتطبيق بالرسم فوق التطبيقات الأخرى (التراكب).",
+  "callsTipNotifications": "اسمح بالإشعارات حتى تعمل التنبيهات وتذكيرات المكالمات الفائتة.",
+  "callsTipBattery": "أوقف تحسين البطارية حتى يستطيع التطبيق العمل في الخلفية.",
+  "callsTipPermissions": "امنح أذونات جهات الاتصال والهاتف ليتمكّن التطبيق من قراءة الأرقام الواردة.",
+  "callsOpenAppSettings": "فتح إعدادات التطبيق",
+
+  "@_profileEdit": {},
+  "profileEditTitle": "تعديل الملف الشخصي",
+  "profileUpdatedMsg": "تم تحديث الملف الشخصي",
+  "profileSaveFailedMsg": "تعذّر حفظ الملف الشخصي",
+  "profileAddPicture": "إضافة صورة شخصية",
+  "profileChangePicture": "تغيير الصورة",
+  "profileFullName": "الاسم الكامل",
+  "profileFullNameHelper": "يمكنك تغيير اسمك مرة واحدة كل 7 أيام.",
+  "profileFullNameLockedDays": "{days, plural, =1{مغلق ليوم واحد إضافي. يمكنك تغيير اسمك مرة كل 7 أيام.} =2{مغلق ليومين إضافيين. يمكنك تغيير اسمك مرة كل 7 أيام.} few{مغلق لـ {days} أيام إضافية. يمكنك تغيير اسمك مرة كل 7 أيام.} many{مغلق لـ {days} يوماً إضافياً. يمكنك تغيير اسمك مرة كل 7 أيام.} other{مغلق لـ {days} يوم إضافي. يمكنك تغيير اسمك مرة كل 7 أيام.}}",
+  "@profileFullNameLockedDays": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "profileFullNameLockedHours": "{hours, plural, =1{مغلق لساعة إضافية واحدة.} =2{مغلق لساعتين إضافيتين.} few{مغلق لـ {hours} ساعات إضافية.} many{مغلق لـ {hours} ساعة إضافية.} other{مغلق لـ {hours} ساعة إضافية.}}",
+  "@profileFullNameLockedHours": {
+    "placeholders": { "hours": { "type": "int" } }
+  },
+  "profileFullNameLockedMinutes": "{mins, plural, =1{مغلق لدقيقة إضافية واحدة.} =2{مغلق لدقيقتين إضافيتين.} few{مغلق لـ {mins} دقائق إضافية.} many{مغلق لـ {mins} دقيقة إضافية.} other{مغلق لـ {mins} دقيقة إضافية.}}",
+  "@profileFullNameLockedMinutes": {
+    "placeholders": { "mins": { "type": "int" } }
+  },
+  "profilePhoneVerified": "رقم الهاتف (موثّق)",
+  "profileGmailOptional": "جيميل (اختياري)",
+  "profilePreviousNames": "الأسماء السابقة",
+
+  "@_whoSearchedMe": {},
+  "whoSearchedMeTitle": "من بحث عني",
+  "whoSearchedMePeopleCount": "{count, plural, =0{لم يبحث عن رقمك أحد بعد} =1{بحث شخص واحد عن رقمك} =2{بحث شخصان عن رقمك} few{بحث {count} أشخاص عن رقمك} many{بحث {count} شخصاً عن رقمك} other{بحث {count} شخص عن رقمك}}",
+  "@whoSearchedMePeopleCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "whoSearchedMeLast7Days": "اطّلع على من بحث عن رقمك خلال آخر 7 أيام.",
+  "whoSearchedMeRecentSearches": "عمليات البحث الأخيرة"
+}

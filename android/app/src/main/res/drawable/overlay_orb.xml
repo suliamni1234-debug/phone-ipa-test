@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft translucent decorative orb that adds depth behind the glass. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="220dp"
+        android:startColor="#33FFFFFF"
+        android:endColor="#00FFFFFF" />
+</shape>

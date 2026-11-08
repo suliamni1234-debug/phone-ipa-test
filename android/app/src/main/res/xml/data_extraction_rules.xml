@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Disables backup + transfer of app data so the JWT (in encrypted secure
+  storage) and the "isLoggedIn" flag (in SharedPreferences) can never get
+  out of sync — for example, after a phone-to-phone migration that restores
+  prefs but cannot restore the keystore-bound JWT.
+-->
+<data-extraction-rules>
+    <cloud-backup disableIfNoEncryptionCapabilities="false">
+        <exclude domain="sharedpref" />
+        <exclude domain="database" />
+        <exclude domain="file" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" />
+        <exclude domain="database" />
+        <exclude domain="file" />
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,591 @@
+{
+  "@@locale": "en",
+
+  "appName": "Yellow Fast Call",
+  "appVersion": "Yellow Fast Call v1.1.0",
+  "appTagline": "Know who is calling",
+
+  "@_onboarding": {},
+  "onboardingSkip": "Skip",
+  "onboardingGetStarted": "Get Started",
+  "onboardingSlide1Title": "Know who is calling",
+  "onboardingSlide1Subtitle": "Identify unknown numbers in real time and never wonder who is on the other end.",
+  "onboardingSlide2Title": "Block spam and scams",
+  "onboardingSlide2Subtitle": "Automatic protection against telemarketers, scams and robocalls — before your phone rings.",
+  "onboardingSlide3Title": "Your privacy, protected",
+  "onboardingSlide3Subtitle": "Your data is encrypted end-to-end. You stay in control — delete or hide your number anytime.",
+
+  "@_common": {},
+  "ok": "OK",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "close": "Close",
+  "retry": "Retry",
+  "continueAction": "Continue",
+  "done": "Done",
+  "next": "Next",
+  "back": "Back",
+  "search": "Search",
+  "unknown": "Unknown",
+  "loading": "Loading…",
+  "errorGeneric": "Something went wrong",
+  "failed": "Failed",
+  "yes": "Yes",
+  "no": "No",
+  "justNow": "Just now",
+
+  "@_auth": {},
+  "phoneTitle": "Enter your phone number",
+  "phoneSubtitle": "We will send you a verification code by SMS or WhatsApp.",
+  "phoneFieldLabel": "Phone number",
+  "phoneFieldHint": "750 123 4567",
+  "phoneInvalid": "Invalid phone number",
+  "channelSms": "SMS",
+  "channelWhatsapp": "WhatsApp",
+  "sendCode": "Send code",
+  "termsAndPrivacyAgree": "By continuing you agree to the Terms & Privacy Policy.",
+
+  "otpTitle": "Verification code",
+  "otpSentVia": "We sent a 6-digit code via {channel} to ",
+  "@otpSentVia": {
+    "placeholders": {
+      "channel": { "type": "String" }
+    }
+  },
+  "otpDevMode": "Dev mode — your code:",
+  "otpUse": "Use",
+  "otpResendIn": "Resend code in {seconds}s",
+  "@otpResendIn": {
+    "placeholders": {
+      "seconds": { "type": "int" }
+    }
+  },
+  "otpResend": "Resend code",
+  "otpVerify": "Verify",
+  "otpCodeSentAgain": "Code sent again",
+  "otpWrongCode": "Wrong code",
+
+  "nameTitle": "What is your name?",
+  "nameSubtitle": "This is the name people will see when you call them.",
+  "nameFieldLabel": "Full name",
+  "nameValidationShort": "Enter your name",
+  "nameValidationLong": "Name is too long",
+  "finish": "Finish",
+
+  "gmailTitle": "Link your Gmail",
+  "gmailSubtitle": "Optional. Linking your Google account helps you recover your account and improves caller suggestions.",
+  "gmailContinueWith": "Continue with Google",
+  "gmailSkip": "Skip for now",
+  "gmailSignInFailed": "Google sign-in failed: {error}",
+  "@gmailSignInFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "@_home": {},
+  "navHome": "Home",
+  "navProtect": "Protect",
+  "navPremium": "Premium",
+
+  "homeHello": "Hello,",
+  "homeHelloFallbackName": "there",
+  "homeSettingsTooltip": "Settings",
+  "homeSearchesLeft": "{remaining} of {limit} searches left",
+  "@homeSearchesLeft": {
+    "placeholders": {
+      "remaining": { "type": "int" },
+      "limit": { "type": "int" }
+    }
+  },
+  "homeSearchHint": "Search any phone number or name…",
+  "homeQuickActions": "Quick actions",
+  "homeActionContacts": "Contacts",
+  "homeActionContactsSubtitle": "On this device",
+  "homeActionHistory": "History",
+  "homeActionHistorySubtitle": "Recent calls",
+  "homeActionBlock": "Block",
+  "homeActionBlockSubtitle": "Manage list",
+  "homeActionPremium": "Premium",
+  "homeActionPremiumSubtitle": "Go ad-free",
+  "homeRecentCalls": "Recent calls",
+  "homeSeeAll": "See all",
+  "homeRecentEmptyTitle": "No recent calls yet",
+  "homeRecentEmptyBody": "Allow phone access on the History screen to see your call log here.",
+  "homeRecentLoadFailedTitle": "Could not load call history",
+  "homeRecentLoadFailedBody": "Pull down on the History screen to try again.",
+  "homeWatchAdPlusOne": "Watch ad +1",
+  "homeWatchAdSuccess": "+1 search added — you can search now.",
+  "homeWatchAdFail": "Could not add bonus.",
+  "homeStatSpamBlocked": "Spam blocked",
+  "homeStatIdentified": "Identified",
+
+  "@_settings": {},
+  "settingsTitle": "Settings",
+
+  "sectionGeneral": "General",
+  "sectionCallsAndCallerId": "Calls & Caller ID",
+  "sectionBlockAndSpam": "Block & Spam",
+  "sectionSupport": "Support",
+  "sectionAccount": "Account",
+
+  "yourName": "Your name",
+
+  "tileEditProfile": "Edit profile",
+  "tileCalls": "Calls",
+  "tileTheme": "Theme",
+  "tileLanguage": "Language",
+  "tileNotifications": "Notifications",
+
+  "shareLocation": "Share my location",
+  "shareLocationSubtitle": "Send your location to help identify regional spam.",
+  "shareLocationDialogTitle": "Share your location?",
+  "shareLocationDialogBody": "Yellow Fast Call uses your location to identify spam numbers active in your area. You can turn this off any time.",
+  "shareLocationNotNow": "Not now",
+  "shareLocationAllow": "Allow",
+  "locationGetting": "Getting your location…",
+  "locationSaved": "Location saved: {lat}, {lng}",
+  "@locationSaved": {
+    "placeholders": {
+      "lat": { "type": "String" },
+      "lng": { "type": "String" }
+    }
+  },
+  "locationBlockedTitle": "Location permission blocked",
+  "locationBlockedBody": "You previously denied location access. To allow it now, open the app permissions page and tap Location → Allow.",
+  "openPermissions": "Open permissions",
+
+  "callerIdOverlay": "Caller ID overlay",
+  "callerIdOverlaySubtitle": "Show caller info during incoming calls",
+  "afterCallScreen": "After-call screen",
+  "afterCallScreenSubtitle": "Show caller details when a call ends",
+  "showAlternateNumbers": "Show alternate numbers",
+  "showAlternateNumbersSubtitle": "Display other numbers linked to a contact",
+  "defaultCallScreener": "Default call screener",
+  "setAsDefaultCallScreener": "Set as default call screener",
+  "callScreenerActive": "Active",
+  "callScreenerOff": "Off",
+  "callScreenerSetSuccess": "Yellow Fast Call is now your default call screener.",
+  "callScreenerSetFailure": "Could not set as default. Try from system settings.",
+
+  "blockSpam": "Block spam",
+  "blockSpamSubtitle": "Reject calls reported as spam",
+  "blockScam": "Block scam",
+  "blockScamSubtitle": "Reject calls flagged as scam or fraud",
+  "silenceUnknown": "Silence unknown callers",
+  "silenceUnknownSubtitle": "Send unknown numbers to voicemail",
+  "intlSpamFilter": "International spam filter",
+  "intlSpamFilterSubtitle": "Block suspicious foreign numbers",
+  "manageBlockList": "Manage block list",
+
+  "helpCenter": "Help center",
+  "termsOfService": "Terms of service",
+  "privacyPolicy": "Privacy policy",
+
+  "deleteAccount": "Delete account",
+  "deleteAccountTitle": "Delete account?",
+  "deleteAccountBody": "Your account will be deleted and you will be signed out on this device. This action cannot be undone.",
+  "accountDeleted": "Account deleted.",
+
+  "themeDark": "Dark",
+  "themeLight": "Light",
+  "themeSystem": "System",
+
+  "languageDialogTitle": "Language",
+  "languageSetTo": "Language set to {language}.",
+  "@languageSetTo": {
+    "placeholders": {
+      "language": { "type": "String" }
+    }
+  },
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+
+  "notificationsSheetSubtitle": "Show alerts for blocked calls, spam reports and app updates.",
+  "enableNotifications": "Enable notifications",
+  "openSystemSettings": "Open system settings",
+  "notificationsOn": "On",
+  "notificationsOff": "Off",
+
+  "chooseFromGallery": "Choose from gallery",
+  "takeAPhoto": "Take a photo",
+  "profilePictureUpdated": "Profile picture updated",
+  "couldNotSetPicture": "Could not set picture: {error}",
+  "@couldNotSetPicture": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "@_contacts": {},
+  "contactsTitle": "My contacts",
+  "contactsSyncNow": "Sync now",
+  "contactsSyncFailed": "Sync failed: {error}",
+  "@contactsSyncFailed": {
+    "placeholders": { "error": { "type": "String" } }
+  },
+  "contactsUploadedCount": "Uploaded {count} contacts",
+  "@contactsUploadedCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "contactsSearchHint": "Search name or number…",
+  "contactsEmpty": "No contacts on this device.",
+  "contactsNoMatches": "No matches for \"{query}\".",
+  "@contactsNoMatches": {
+    "placeholders": { "query": { "type": "String" } }
+  },
+  "contactsLastUpload": "Last upload: {count} contacts at {time}",
+  "@contactsLastUpload": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "time": { "type": "String" }
+    }
+  },
+  "contactsNotUploaded": "Not uploaded yet — tap the cloud icon to sync.",
+  "contactsNoPhone": "— no phone —",
+  "contactsNoName": "(no name)",
+  "contactsPermissionNeeded": "Contacts permission is needed.",
+  "contactsPermissionHelp": "Open settings → Yellow Fast Call → Permissions → Contacts → Allow.",
+  "openSettings": "Open settings",
+  "tryAgain": "Try again",
+  "contactsLastSyncFailed": "Last sync failed: {message}",
+  "@contactsLastSyncFailed": {
+    "placeholders": { "message": { "type": "String" } }
+  },
+
+  "@_syncGate": {},
+  "syncGatePreparing": "Preparing…",
+  "syncGateAllowAccessTitle": "Allow contacts access",
+  "syncGateAllowAccessBody": "Yellow Fast Call needs your contacts to identify unknown callers and detect spam. Your contacts stay encrypted in transit.",
+  "syncGateAllowAccessButton": "Allow contacts access",
+  "syncGateSyncingTitle": "Syncing your contacts",
+  "syncGateSyncingBody": "Uploading to the server. This usually takes a few seconds.",
+  "syncGateFailedTitle": "Sync failed",
+  "syncGateAllSetTitle": "All set!",
+  "syncGateAllSetBody": "Uploaded {count} contacts. Continuing…",
+  "@syncGateAllSetBody": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "syncGateReadyTitle": "Ready to sync",
+  "syncGateReadyBody": "Tap to start",
+  "syncGateStart": "Start sync",
+  "syncGateMustSync": "You can't continue until contacts are synced.",
+  "syncGatePermBlocked": "Permission permanently denied. Open settings to enable Contacts.",
+
+  "@_history": {},
+  "historyTitle": "Recent calls",
+  "historyRefresh": "Refresh",
+  "historyCallTypeIncoming": "Incoming",
+  "historyCallTypeOutgoing": "Outgoing",
+  "historyCallTypeMissed": "Missed",
+  "historyCallTypeRejected": "Rejected",
+  "historyCallTypeBlocked": "Blocked",
+  "historyCallTypeVoicemail": "Voicemail",
+  "historyCallTypeCall": "Call",
+  "historyEmptyTitle": "No recent calls",
+  "historyEmptyBody": "Allow phone access to see your call history and identify unknown numbers.",
+  "historyAllowPhone": "Allow phone access",
+  "historyLoadFailed": "Could not load call history",
+  "minAgo": "{minutes} min ago",
+  "@minAgo": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+
+  "@_search": {},
+  "searchTitle": "Search",
+  "searchModeNumber": "Number",
+  "searchModeName": "Name",
+  "searchEnterNumber": "Enter the number to search.",
+  "searchPhoneField": "Phone number",
+  "searchTypeName": "Type a name",
+  "searchInvalidPhone": "Invalid phone number",
+  "searchEmptyNumberHint": "Pick a country and enter the number to look it up.",
+  "searchEmptyNameHint": "Type a name, then Search.",
+  "searchRegisteredUsers": "Registered users ({count})",
+  "@searchRegisteredUsers": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchEveryonesContacts": "From everyone's contacts ({count})",
+  "@searchEveryonesContacts": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchUnnamedUser": "Unnamed user",
+  "searchUnknown": "Unknown",
+  "searchUploads": "{count, plural, =1{1 upload} other{{count} uploads}}",
+  "@searchUploads": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "searchAdAdded": "+1 search added. Retrying…",
+  "searchAdAddedLoading": "+1 search added. Loading result…",
+  "searchAdFail": "Could not add bonus. Try again later.",
+  "searchQuotaTitle": "Daily search limit reached",
+  "searchQuotaBody": "You used {used}/{limit} searches in the last 24 hours.",
+  "@searchQuotaBody": {
+    "placeholders": {
+      "used": { "type": "String" },
+      "limit": { "type": "String" }
+    }
+  },
+  "searchQuotaReset": "Next search available {when}.",
+  "@searchQuotaReset": {
+    "placeholders": { "when": { "type": "String" } }
+  },
+  "searchWatchAdForReward": "Watch ad for +1 search",
+  "searchAdMaxUsed": "You've already used the maximum number of ad-bonus searches for today.",
+  "searchShowNumber": "Show number",
+  "searchRelMoment": "in a moment",
+  "searchRelMinutes": "in {minutes} min",
+  "@searchRelMinutes": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "searchRelHoursMinutes": "in {hours}h {minutes}m",
+  "@searchRelHoursMinutes": {
+    "placeholders": {
+      "hours": { "type": "int" },
+      "minutes": { "type": "int" }
+    }
+  },
+  "searchRelDays": "{days, plural, =1{in 1 day} other{in {days} days}}",
+  "@searchRelDays": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+
+  "@_callerInfo": {},
+  "callerInfoTitle": "Caller info",
+  "callerInfoLoadFailed": "Could not load caller info",
+  "callerInfoVerifiedUser": "Verified Yellow Fast Call user",
+  "callerInfoSpamFlag": "Reported as spam ({count})",
+  "@callerInfoSpamFlag": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoRegistered": "Registered user",
+  "callerInfoIdentified": "Identified by community",
+  "callerInfoNotInDir": "Not in directory yet",
+  "callerInfoAlsoSavedAs": "Also saved as",
+  "callerInfoMoreNotShown": "+{count} more",
+  "@callerInfoMoreNotShown": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoRegisteredAccount": "Registered account",
+  "callerInfoLoginName": "Login name",
+  "callerInfoEmail": "Email",
+  "callerInfoMemberSince": "Member since",
+  "callerInfoAbout": "About this number",
+  "callerInfoMostLikelyName": "Most likely name",
+  "callerInfoCountry": "Country",
+  "callerInfoSeenBy": "Seen by",
+  "callerInfoNobodyYet": "Nobody yet",
+  "callerInfoUsersCount": "{count, plural, =1{1 user} other{{count} users}}",
+  "@callerInfoUsersCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoDifferentNames": "Different names uploaded",
+  "callerInfoHowOthers": "How others saved this number",
+  "callerInfoTopOf": "Top {shown} of {total} different names across the directory",
+  "@callerInfoTopOf": {
+    "placeholders": {
+      "shown": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "callerInfoNamesAcross": "{count, plural, =1{1 different name across the directory} other{{count} different names across the directory}}",
+  "@callerInfoNamesAcross": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoPeopleCount": "{count, plural, =1{1 person} other{{count} people}}",
+  "@callerInfoPeopleCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoHiddenMore": "+{count} more not shown",
+  "@callerInfoHiddenMore": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "callerInfoCommunityReports": "Community reports",
+  "callerInfoSpamReports": "Spam reports",
+  "callerInfoStatus": "Status",
+  "callerInfoFlagged": "Flagged as spam",
+  "callerInfoNotFlagged": "Not flagged",
+
+  "addPicture": "Add picture",
+  "changePicture": "Change picture",
+  "manageBlocking": "Manage blocking",
+  "manageBlockingSubtitle": "Block list, spam & scam settings",
+  "upgradeToPremium": "Upgrade to Premium",
+  "upgradeToPremiumSubtitle": "Unlimited searches & full features",
+  "whoSearchedMe": "Who searched me",
+  "whoSearchedMeSubtitle": "See people who looked up your number",
+
+  "@_premium": {},
+  "premiumHeroTitle": "Yellow Fast Premium",
+  "premiumHeroSubtitle": "Unlock the full caller ID power.\nNo ads. Unlimited searches.",
+  "premiumFeatureIdentify": "Identify any number",
+  "premiumFeatureUnlimited": "Unlimited searches",
+  "premiumFeatureNoAds": "No ads",
+  "premiumFeatureSpamFilter": "Advanced spam filter",
+  "premiumFeatureBadges": "Premium-only badges",
+  "premiumFeaturePriority": "Priority support",
+  "premiumPlanMonthly": "Monthly",
+  "premiumPlanYearly": "Yearly",
+  "premiumPlanLifetime": "Lifetime",
+  "premiumPeriodMonth": "/ month",
+  "premiumPeriodYear": "/ year",
+  "premiumPeriodOneTime": "one-time",
+  "premiumBadgeBest": "BEST",
+  "premiumUpgradeNow": "Upgrade now",
+  "premiumCancelAnytime": "Cancel anytime. Subscriptions auto-renew.",
+  "premiumNotWired": "Payments not wired yet",
+  "premiumUnlockHistory": "Unlock full history with Premium",
+
+  "@_protect": {},
+  "protectTitle": "Protect",
+  "protectSubtitle": "Block spam, scams and unwanted callers automatically.",
+  "protectShieldActive": "You are protected",
+  "protectShieldInactive": "Protection is off",
+  "protectShieldActiveBody": "{count, plural, =0{No calls blocked yet.} =1{1 call blocked so far.} other{{count} calls blocked so far.}}",
+  "@protectShieldActiveBody": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "protectShieldInactiveBody": "Tap below to enable call screening.",
+  "protectScreeningEnabledMsg": "Call screening enabled.",
+  "protectScreeningNeededMsg": "You need to allow call screening for blocking to work.",
+  "protectSetDefaultBanner": "Enable call screening so the app can actually block calls.",
+  "protectCallerIdBanner": "Turn on the Caller ID popup so names show on incoming calls.",
+  "protectCallerIdEnabledMsg": "Caller ID popup is on.",
+  "protectCallerIdNeededMsg": "Allow \"Display over other apps\" to see caller names.",
+  "protectSettingsSection": "Protection settings",
+  "protectBlockSpamTitle": "Block spam calls",
+  "protectBlockSpamBody": "Automatically block known spam numbers.",
+  "protectBlockScamTitle": "Block scams",
+  "protectBlockScamBody": "Stop scam calls before they ring you.",
+  "protectSilenceUnknownTitle": "Silence unknown numbers",
+  "protectSilenceUnknownBody": "Send unknown callers straight to voicemail.",
+  "protectIntlFilterTitle": "International spam filter",
+  "protectIntlFilterBody": "Block suspicious international numbers.",
+  "protectBlockListSection": "Block list",
+  "protectAddNumber": "Add number",
+  "protectBlockDialogTitle": "Block a number",
+  "protectBlockDialogPhoneHint": "+1 555 123 4567",
+  "protectBlockDialogNameLabel": "Name (optional)",
+  "protectBlockButton": "Block",
+  "protectAddedToBlockList": "Number added to block list.",
+  "protectAlreadyBlocked": "Number is already blocked.",
+  "protectEmptyBlockListTitle": "No numbers blocked yet",
+  "protectEmptyBlockListBody": "Tap \"Add number\" to block a phone number manually.",
+  "protectBlockedSubtitle": "Blocked",
+  "protectUnblock": "Unblock",
+
+  "@_enableProtection": {},
+  "enableProtectionTitle": "Enable Protection",
+  "enableProtectionBody": "Let Yellow Fast Call block spam, scams and unwanted callers automatically.",
+  "enableProtectionShareLocation": "Share my location",
+  "enableProtectionShareLocationSub": "Helps identify regional spam patterns.",
+  "enableProtectionBulletSpamTitle": "Block spam & scam calls",
+  "enableProtectionBulletSpamBody": "Reject known bad numbers before they ring.",
+  "enableProtectionBulletSilenceTitle": "Silence unknown callers",
+  "enableProtectionBulletSilenceBody": "Send strangers straight to voicemail.",
+  "enableProtectionBulletIntlTitle": "International filter",
+  "enableProtectionBulletIntlBody": "Block suspicious foreign numbers.",
+  "enableProtectionFootnote": "You can change this anytime in Settings.",
+  "enableProtectionLaterMsg": "You can enable protection later from Settings or Protect.",
+
+  "@_permissionsScreen": {},
+  "permissionsTitle": "Permissions",
+  "permissionsSubtitle": "Tap each permission to allow. You can change these later in settings.",
+  "permContactsTitle": "Contacts",
+  "permContactsDesc": "Identify your contacts and protect their numbers.",
+  "permLocationTitle": "Location",
+  "permLocationDesc": "Show local information about callers near you.",
+  "permPhoneTitle": "Phone",
+  "permPhoneDesc": "Detect incoming calls so we can show caller info.",
+
+  "permWhyTitle": "Let's get you set up",
+  "permWhySubtitle": "Yellow Fast Call needs a few permissions to identify callers and block spam. Your phone will ask you to allow each one — just tap Allow.",
+  "permWhyLocationHeading": "Why we ask for your location",
+  "permLocationReason1": "Spot spam and scam numbers active in your area",
+  "permLocationReason2": "Show the city or region an unknown call comes from",
+  "permLocationReason3": "Warn you about fraud patterns reported nearby",
+  "permLocationReason4": "Make caller identification more accurate in your country",
+  "permLocationPrivacyNote": "Your precise location is never shown to other users, and you can turn it off anytime in Settings.",
+  "permAllowAll": "Allow & continue",
+  "permFooterNote": "You can change all of these later in Settings.",
+
+  "@_locationBanner": {},
+  "locReminderTitle": "Share your location",
+  "locReminderBody": "Helps identify spam in your area. Updated every few days.",
+  "locReminderNotNow": "Not now",
+  "locReminderTurnOn": "Turn on",
+
+  "@_callsSettings": {},
+  "callsTitle": "Calls",
+  "callsSectionGeneral": "General",
+  "callsTroubleshootTitle": "Troubleshoot calling",
+  "callsTroubleshootSub": "Fix problems with caller ID & screening",
+  "callsDisplayStyleTitle": "Display style",
+  "callsDisplayStyleSub": "How caller info appears on incoming calls",
+  "callsIdentifyOtherAppsTitle": "Identify numbers on other apps",
+  "callsIdentifyOtherAppsSub": "Show caller info in WhatsApp, Messenger and more",
+  "callsSectionHistory": "Call history",
+  "callsGroupCallsTitle": "Group calls in call history",
+  "callsGroupCallsSub": "Combine repeated calls from the same number",
+  "callsShowFrequentTitle": "Show frequently called contacts",
+  "callsShowFrequentSub": "Surface your top contacts on the call screen",
+  "callsShowFromOtherAppsTitle": "Show calls from other apps",
+  "callsShowFromOtherAppsSub": "Include WhatsApp, Telegram and similar in history",
+  "callsSectionNotifications": "Notifications",
+  "callsAlertNotifTitle": "Call alert notification",
+  "callsAlertNotifSub": "Get notified when an unknown number calls",
+  "callsMissedNotifTitle": "Missed call notification",
+  "callsMissedNotifSub": "Show a notification for every missed call",
+  "callsRemindMissedTitle": "Remind me of missed calls",
+  "callsRemindMissedSub": "Send a follow-up reminder after a missed call",
+  "callsDisplayStylePickerSub": "Pick how the caller info appears when someone calls.",
+  "callsDisplayFullScreen": "Full screen",
+  "callsDisplayFullScreenSub": "Takes the whole screen during a call",
+  "callsDisplayClassicPopup": "Classic popup",
+  "callsDisplayClassicPopupSub": "A small floating popup on top of your screen",
+  "callsDisplayStyleChanged": "Display style: {style}",
+  "@callsDisplayStyleChanged": {
+    "placeholders": { "style": { "type": "String" } }
+  },
+  "callsTroubleshootIntro": "If caller ID is not showing or calls are not being identified, try these steps:",
+  "callsTipDefault": "Set Yellow Fast Call as your default caller ID & spam app.",
+  "callsTipOverlay": "Allow the app to draw over other apps (overlay).",
+  "callsTipNotifications": "Allow notifications so alerts and missed call reminders work.",
+  "callsTipBattery": "Disable battery optimization so the app can run in the background.",
+  "callsTipPermissions": "Grant Contacts and Phone permissions so the app can read incoming numbers.",
+  "callsOpenAppSettings": "Open app settings",
+
+  "@_profileEdit": {},
+  "profileEditTitle": "Edit profile",
+  "profileUpdatedMsg": "Profile updated",
+  "profileSaveFailedMsg": "Could not save profile",
+  "profileAddPicture": "Add profile picture",
+  "profileChangePicture": "Change picture",
+  "profileFullName": "Full name",
+  "profileFullNameHelper": "You can change your name once every 7 days.",
+  "profileFullNameLockedDays": "{days, plural, =1{Locked for 1 more day. You can change your name once every 7 days.} other{Locked for {days} more days. You can change your name once every 7 days.}}",
+  "@profileFullNameLockedDays": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "profileFullNameLockedHours": "{hours, plural, =1{Locked for 1 more hour.} other{Locked for {hours} more hours.}}",
+  "@profileFullNameLockedHours": {
+    "placeholders": { "hours": { "type": "int" } }
+  },
+  "profileFullNameLockedMinutes": "{mins, plural, =1{Locked for 1 more minute.} other{Locked for {mins} more minutes.}}",
+  "@profileFullNameLockedMinutes": {
+    "placeholders": { "mins": { "type": "int" } }
+  },
+  "profilePhoneVerified": "Phone number (verified)",
+  "profileGmailOptional": "Gmail (optional)",
+  "profilePreviousNames": "Previous names",
+
+  "@_whoSearchedMe": {},
+  "whoSearchedMeTitle": "Who searched me",
+  "whoSearchedMePeopleCount": "{count, plural, =1{1 person searched your number} other{{count} people searched your number}}",
+  "@whoSearchedMePeopleCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "whoSearchedMeLast7Days": "See who looked you up in the last 7 days.",
+  "whoSearchedMeRecentSearches": "Recent searches"
+}
